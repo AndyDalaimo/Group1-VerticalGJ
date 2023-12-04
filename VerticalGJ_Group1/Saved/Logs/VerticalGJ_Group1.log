@@ -1103,3 +1103,26 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.04-10.46.05:297][  0]LogViewport: Scene viewport resized to 2038x820, mode Windowed.
 [2023.12.04-10.46.05:475][  1]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.12.04-10.47.50:769][539]LogDerivedDataCache: C:/Users/2202621/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.213 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 313 files in 566 folders with total size 11 MiB.
+[2023.12.04-11.18.56:290][696]LogSlate: Took 0.006816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.12.04-11.19.14:870][375]Running C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" -game -rocket -progress
+[2023.12.04-11.19.15:088][375]Using bundled DotNet SDK version: 6.0.302
+[2023.12.04-11.19.15:088][375]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" -game -rocket -progress
+[2023.12.04-11.19.17:903][375]Log file: C:\Users\2202621\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.12.04-11.19.18:406][375]
+[2023.12.04-11.19.18:406][375]Generating VisualStudio project files:
+[2023.12.04-11.19.18:406][375]Discovering modules, targets and source code for project...
+[2023.12.04-11.19.22:531][375]Binding IntelliSense data...
+[2023.12.04-11.19.32:695][375]Binding IntelliSense data... 100%
+[2023.12.04-11.19.32:695][375]Writing project files...
+[2023.12.04-11.19.38:131][375]Writing project files... 100%
+[2023.12.04-11.19.38:535][375]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.12.04-11.19.41:778][375]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.12.04-11.19.41:779][375]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.12.04-11.19.42:501][375]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/Source/VerticalGJ_Group1/Enemy.h'.
+[2023.12.04-11.19.42:501][375]LogVSAccessor: Warning: Couldn't open file 'D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/Source/VerticalGJ_Group1/Enemy.cpp'.
+[2023.12.04-11.19.57:615][422]LogLiveCoding: Display:    Creating library D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Binaries\Win64\UnrealEditor-VerticalGJ_Group1.patch_0.lib and object D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Binaries\Win64\UnrealEditor-VerticalGJ_Group1.patch_0.exp
+[2023.12.04-11.19.58:064][423]LogClass: UPackage /Script/VerticalGJ_Group1 Reload.
+[2023.12.04-11.19.58:064][423]LogClass: Could not find existing class Enemy in package /Script/VerticalGJ_Group1 for reload, assuming new or modified class
+[2023.12.04-11.19.58:201][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.12.04-11.19.58:334][424]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 2 classes unchanged
+[2023.12.04-11.19.58:334][424]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types

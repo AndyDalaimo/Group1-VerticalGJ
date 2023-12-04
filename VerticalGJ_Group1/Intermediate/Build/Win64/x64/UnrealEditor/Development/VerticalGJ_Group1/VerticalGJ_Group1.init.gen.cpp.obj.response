@@ -1,18 +1,16 @@
 D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT\VerticalGJ_Group1.init.gen.cpp
 /I .
-/I D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT
-/I D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
-/I Runtime
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
-/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
+/I Runtime
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\UHT
 /I Runtime\CoreOnline\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
+/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\UHT
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
@@ -274,6 +272,8 @@ D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\U
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
+/I D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT
+/I D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality\UHT
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh\UHT
