@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.cpp
+=======
+D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.cpp
+>>>>>>> main
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
@@ -286,10 +290,17 @@ D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_G
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+<<<<<<< HEAD
 /Yc"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
 /Fp"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
 /Fo"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
 /sourceDependencies D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.dep.json
+=======
+/Yc"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+/sourceDependencies D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.dep.json
+>>>>>>> main
 /Zc:inline
 /nologo
 /Oi

@@ -72,5 +72,9 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=VerticalGJ_Group1
+<<<<<<< HEAD
 /fo "D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Default.rc2.res"
+=======
+/fo "D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Default.rc2.res"
+>>>>>>> main
 "..\Build\Windows\Resources\Default.rc2"
