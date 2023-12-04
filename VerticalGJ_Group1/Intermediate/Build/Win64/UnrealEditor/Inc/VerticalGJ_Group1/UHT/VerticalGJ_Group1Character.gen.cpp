@@ -9,6 +9,10 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeVerticalGJ_Group1Character() {}
 // Cross Module References
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -18,8 +22,63 @@ void EmptyLinkFunctionForGeneratedCodeVerticalGJ_Group1Character() {}
 	VERTICALGJ_GROUP1_API UClass* Z_Construct_UClass_AVerticalGJ_Group1Character();
 	VERTICALGJ_GROUP1_API UClass* Z_Construct_UClass_AVerticalGJ_Group1Character_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AVerticalGJ_Group1Character::execFire)
+	{
+		P_GET_STRUCT(FVector,Z_Param_Loc);
+		P_GET_STRUCT(FRotator,Z_Param_Rot);
+		P_GET_OBJECT(UClass,Z_Param_Spawning);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Fire(Z_Param_Loc,Z_Param_Rot,Z_Param_Spawning);
+		P_NATIVE_END;
+	}
 	void AVerticalGJ_Group1Character::StaticRegisterNativesAVerticalGJ_Group1Character()
 	{
+		UClass* Class = AVerticalGJ_Group1Character::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Fire", &AVerticalGJ_Group1Character::execFire },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics
+	{
+		struct VerticalGJ_Group1Character_eventFire_Parms
+		{
+			FVector Loc;
+			FRotator Rot;
+			UClass* Spawning;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Loc;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Rot;
+		static const UECodeGen_Private::FClassPropertyParams NewProp_Spawning;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::NewProp_Loc = { "Loc", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(VerticalGJ_Group1Character_eventFire_Parms, Loc), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::NewProp_Rot = { "Rot", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(VerticalGJ_Group1Character_eventFire_Parms, Rot), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::NewProp_Spawning = { "Spawning", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(VerticalGJ_Group1Character_eventFire_Parms, Spawning), Z_Construct_UClass_UClass, Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::NewProp_Loc,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::NewProp_Rot,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::NewProp_Spawning,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "VerticalGJ_Group1Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AVerticalGJ_Group1Character, nullptr, "Fire", nullptr, nullptr, sizeof(Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::VerticalGJ_Group1Character_eventFire_Parms), Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AVerticalGJ_Group1Character);
 	UClass* Z_Construct_UClass_AVerticalGJ_Group1Character_NoRegister()
@@ -29,6 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeVerticalGJ_Group1Character() {}
 	struct Z_Construct_UClass_AVerticalGJ_Group1Character_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -63,6 +123,9 @@ void EmptyLinkFunctionForGeneratedCodeVerticalGJ_Group1Character() {}
 	UObject* (*const Z_Construct_UClass_AVerticalGJ_Group1Character_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_VerticalGJ_Group1,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AVerticalGJ_Group1Character_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AVerticalGJ_Group1Character_Fire, "Fire" }, // 18342424
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVerticalGJ_Group1Character_Statics::Class_MetaDataParams[] = {
@@ -149,11 +212,11 @@ void EmptyLinkFunctionForGeneratedCodeVerticalGJ_Group1Character() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AVerticalGJ_Group1Character_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AVerticalGJ_Group1Character_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -178,9 +241,9 @@ void EmptyLinkFunctionForGeneratedCodeVerticalGJ_Group1Character() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AVerticalGJ_Group1Character, AVerticalGJ_Group1Character::StaticClass, TEXT("AVerticalGJ_Group1Character"), &Z_Registration_Info_UClass_AVerticalGJ_Group1Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVerticalGJ_Group1Character), 3348339928U) },
+		{ Z_Construct_UClass_AVerticalGJ_Group1Character, AVerticalGJ_Group1Character::StaticClass, TEXT("AVerticalGJ_Group1Character"), &Z_Registration_Info_UClass_AVerticalGJ_Group1Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVerticalGJ_Group1Character), 3367428314U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_213212868(TEXT("/Script/VerticalGJ_Group1"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_207233965(TEXT("/Script/VerticalGJ_Group1"),
 		Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

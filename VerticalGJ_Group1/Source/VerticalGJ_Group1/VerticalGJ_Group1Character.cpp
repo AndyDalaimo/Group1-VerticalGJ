@@ -16,6 +16,13 @@
 
 AVerticalGJ_Group1Character::AVerticalGJ_Group1Character()
 {
+
+	enum Weapon {
+		Pistol,
+		Shotgun,
+		Rifle,
+	};
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 		
@@ -83,7 +90,7 @@ void AVerticalGJ_Group1Character::SetupPlayerInputComponent(class UInputComponen
 
 		//Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AVerticalGJ_Group1Character::Look);
-
+		
 	}
 
 }
@@ -123,6 +130,16 @@ void AVerticalGJ_Group1Character::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+void AVerticalGJ_Group1Character::Fire(FVector Loc, FRotator Rot, UClass* Spawning)
+{
+	
+	UE_LOG(LogTemp, Warning, TEXT("This works :)"))
+		FVector Direction = FRotationMatrix(GetControlRotation()).GetScaledAxis(EAxis::Y);
+	
+	AActor* newActor = GetWorld()->SpawnActor<AActor>(Spawning, Loc, Rot);
+	newActor->GetRootComponent()->ComponentVelocity = Direction;
+}
+
 
 
 

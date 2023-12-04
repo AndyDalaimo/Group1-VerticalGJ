@@ -9,14 +9,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UObject;
 #ifdef VERTICALGJ_GROUP1_VerticalGJ_Group1Character_generated_h
 #error "VerticalGJ_Group1Character.generated.h already included, missing '#pragma once' in VerticalGJ_Group1Character.h"
 #endif
 #define VERTICALGJ_GROUP1_VerticalGJ_Group1Character_generated_h
 
 #define FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_14_SPARSE_DATA
-#define FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_14_RPC_WRAPPERS
-#define FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFire);
+
+
+#define FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire);
+
+
 #define FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_14_ACCESSORS
 #define FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_VerticalGJ_Group1Character_h_14_INCLASS_NO_PURE_DECLS \
 private: \
