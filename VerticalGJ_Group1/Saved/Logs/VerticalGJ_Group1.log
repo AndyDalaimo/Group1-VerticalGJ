@@ -1126,3 +1126,6 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.04-11.19.58:201][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2023.12.04-11.19.58:334][424]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 2 classes unchanged
 [2023.12.04-11.19.58:334][424]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.12.04-11.47.50:641][847]LogDerivedDataCache: C:/Users/2202621/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.084 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 313 files in 566 folders with total size 11 MiB.
+[2023.12.04-11.53.21:978][841]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.12.04-11.53.21:978][841]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
