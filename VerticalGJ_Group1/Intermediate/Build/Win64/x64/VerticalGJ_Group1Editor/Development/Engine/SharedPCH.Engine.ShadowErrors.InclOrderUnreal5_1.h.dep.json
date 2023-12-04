@@ -1,10 +1,10 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\2002356\\github\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.cpp",
+        "Source": "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\2002356\\github\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h",
+            "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -456,6 +456,8 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\experimental\\concurrentlinearallocator.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\mallocansi.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\profilingdebugging\\memorytrace.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\sanitizer\\asan_interface.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\sanitizer\\common_interface_defs.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\profilingdebugging\\metadatatrace.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\profilingdebugging\\stringstrace.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\tracelog\\public\\trace\\trace.inl",

@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D6543806-4A70-3793-8FFF-58B92DF0E085}</ProjectGuid>
+    <ProjectGuid>{8E9E0C06-40BE-3F4C-A301-EF6CF9787E24}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>VerticalGJ_Group1</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
