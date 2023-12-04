@@ -172,7 +172,9 @@
     <None Include="..\..\VerticalGJ_Group1.uproject"/>
     <None Include="..\..\Source\VerticalGJ_Group1.Target.cs"/>
     <None Include="..\..\Source\VerticalGJ_Group1Editor.Target.cs"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\README.md"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
