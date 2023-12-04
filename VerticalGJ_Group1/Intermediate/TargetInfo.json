@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "VerticalGJ_Group1",
-			"Path": "D:\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
+			"Path": "D:\\2002356\\github\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "VerticalGJ_Group1Editor",
-			"Path": "D:\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs",
+			"Path": "D:\\2002356\\github\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]
