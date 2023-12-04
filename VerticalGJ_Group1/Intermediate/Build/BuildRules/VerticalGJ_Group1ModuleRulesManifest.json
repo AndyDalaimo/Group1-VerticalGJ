@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1\\VerticalGJ_Group1.Build.cs",
-		"D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
-		"D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs"
+		"D:\\2002356\\github\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1\\VerticalGJ_Group1.Build.cs",
+		"D:\\2002356\\github\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
+		"D:\\2002356\\github\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs"
 	],
 	"EngineVersion": "5.2.1"
 }
