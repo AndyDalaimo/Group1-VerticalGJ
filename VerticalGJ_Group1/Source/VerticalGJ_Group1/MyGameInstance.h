@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "Blueprint/UserWidget.h"
 #include "MyGameInstance.generated.h"
 
 /**
@@ -18,17 +19,23 @@ public:
 
 	UMyGameInstance(const FObjectInitializer& ObjectInitializer);
 
+	UFUNCTION()
+		virtual void Init();
+
+	// Helper Functions for Showing UI Widgets
+	UFUNCTION(BlueprintCallable)
+	void ShowHUDUIWidget();
+
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		int32 PlayerResources;
 
 	UFUNCTION()
 		void AddResources(int32 resource);
 
-		
-
+	
 private:
 
-	UFUNCTION()
-		virtual void Init();
-	
+	// HUD with Game Timer
+	TSubclassOf<UUserWidget> HUDUIWidgetClass;
 };
