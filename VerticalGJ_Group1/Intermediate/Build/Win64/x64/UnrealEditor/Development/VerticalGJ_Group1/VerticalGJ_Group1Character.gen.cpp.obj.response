@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT\VerticalGJ_Group1Character.gen.cpp
-=======
-D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT\VerticalGJ_Group1Character.gen.cpp
->>>>>>> main
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
@@ -276,13 +272,8 @@ D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\U
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-<<<<<<< HEAD
 /I D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT
 /I D:\Group1-VerticalGJ\VerticalGJ_Group1\Source
-=======
-/I D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT
-/I D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Source
->>>>>>> main
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality\UHT
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh\UHT
@@ -299,21 +290,12 @@ D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\U
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-<<<<<<< HEAD
 /FI"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
 /FI"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Definitions.VerticalGJ_Group1.h"
 /Yu"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
 /Fp"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
 /Fo"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.obj"
 /sourceDependencies D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.dep.json
-=======
-/FI"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/FI"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Definitions.VerticalGJ_Group1.h"
-/Yu"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.obj"
-/sourceDependencies D:\2002356\github\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.dep.json
->>>>>>> main
 /Zc:inline
 /nologo
 /Oi

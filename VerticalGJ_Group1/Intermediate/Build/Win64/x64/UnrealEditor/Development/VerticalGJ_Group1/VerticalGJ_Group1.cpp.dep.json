@@ -1,21 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-<<<<<<< HEAD
         "Source": "d:\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.cpp",
         "ProvidedModule": "",
         "PCH": "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
         "Includes": [
             "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\verticalgj_group1\\definitions.verticalgj_group1.h",
             "d:\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.h"
-=======
-        "Source": "d:\\2002356\\github\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.cpp",
-        "ProvidedModule": "",
-        "PCH": "d:\\2002356\\github\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
-        "Includes": [
-            "d:\\2002356\\github\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\verticalgj_group1\\definitions.verticalgj_group1.h",
-            "d:\\2002356\\github\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.h"
->>>>>>> main
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
