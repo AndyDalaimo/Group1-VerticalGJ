@@ -2566,3 +2566,212 @@ Would you like to open the Output Log to see more details?
 [2023.12.04-15.26.23:014][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 430 ms)
 [2023.12.04-15.26.23:025][185]AssetCheck: New page: Asset Save: BP_TestEnemy
 [2023.12.04-15.26.23:025][185]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemy/BP_TestEnemy.BP_TestEnemy
+[2023.12.04-15.33.53:620][573]Cmd: DELETE
+[2023.12.04-15.33.53:620][573]Cmd: ACTOR DELETE
+[2023.12.04-15.33.53:623][573]LogEditorActor: Deleted Actor: BP_FriendlyNPC_C
+[2023.12.04-15.33.53:654][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.04-15.33.53:657][573]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2023.12.04-15.33.57:271][979]BlueprintLog: New page: Compile BP_FriendlyNPC
+[2023.12.04-15.33.57:313][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.12.04-15.33.57:730][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-15.33.57:779][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FriendlyNPC/BP_FriendlyNPC" FILE="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/Content/FriendlyNPC/BP_FriendlyNPC.uasset" SILENT=true
+[2023.12.04-15.33.57:784][ 26]LogSavePackage: Moving output files for package: /Game/FriendlyNPC/BP_FriendlyNPC
+[2023.12.04-15.33.57:786][ 26]LogSavePackage: Moving 'D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/Saved/BP_FriendlyNPCBDE964374AE4EC7F63B75B91508097EE.tmp' to 'D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/Content/FriendlyNPC/BP_FriendlyNPC.uasset'
+[2023.12.04-15.33.57:795][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 494 ms)
+[2023.12.04-15.33.57:803][ 26]AssetCheck: New page: Asset Save: BP_FriendlyNPC
+[2023.12.04-15.33.57:803][ 26]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FriendlyNPC/BP_FriendlyNPC.BP_FriendlyNPC
+[2023.12.04-15.36.04:351][119]Running C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" -game -rocket -progress
+[2023.12.04-15.36.04:668][119]Using bundled DotNet SDK version: 6.0.302
+[2023.12.04-15.36.04:668][119]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" -game -rocket -progress
+[2023.12.04-15.36.05:272][119]Log file: C:\Users\2202621\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.12.04-15.36.05:574][119]
+[2023.12.04-15.36.05:574][119]Generating VisualStudio project files:
+[2023.12.04-15.36.05:574][119]Discovering modules, targets and source code for project...
+[2023.12.04-15.36.10:899][119]Binding IntelliSense data...
+[2023.12.04-15.36.16:744][119]Binding IntelliSense data... 100%
+[2023.12.04-15.36.16:744][119]Writing project files...
+[2023.12.04-15.36.25:750][119]Writing project files... 100%
+[2023.12.04-15.36.26:470][119]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.12.04-15.36.26:470][119]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2023.12.04-15.36.26:486][119]Candidate modules for hot reload:
+[2023.12.04-15.36.26:486][119]  VerticalGJ_Group1
+[2023.12.04-15.36.26:505][119]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=VerticalGJ_Group1,6157 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk]
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: New page: Compilation - 4 Dec 2023, 15:36:35
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=VerticalGJ_Group1,6157 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Log file: C:\Users\2202621\AppData\Local\UnrealBuildTool\Log.txt
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProjects\Group1-VerticalGJ).
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Creating makefile for VerticalGJ_Group1Editor (no existing makefile)
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Parsing headers for VerticalGJ_Group1Editor
+[2023.12.04-15.36.35:159][119]CompilerResultsLog:   Running Internal UnrealHeaderTool D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\VerticalGJ_Group1.uproject D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\VerticalGJ_Group1Editor\Development\VerticalGJ_Group1Editor.uhtmanifest -WarningsAsErrors -installed
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Total of 4 written
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Reflection code generated for VerticalGJ_Group1Editor in 2.5232561 seconds
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Building VerticalGJ_Group1Editor...
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: Using Visual Studio 2022 14.29.30151 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: [Upgrade]
+[2023.12.04-15.36.35:159][119]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in VerticalGJ_Group1Editor.Target.cs.
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [Upgrade]
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [Adaptive Build] Excluded from VerticalGJ_Group1 unity file: AIEnemy.cpp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: Determining max actions to execute in parallel (10 physical cores, 20 logical cores)
+[2023.12.04-15.36.35:160][119]CompilerResultsLog:   Executing up to 10 processes, one per physical core
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: Building 8 actions with 8 processes...
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [1/8] Compile [x64] VerticalGJ_Group1.init.gen.cpp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [2/8] Compile [x64] FriendlyNPC.cpp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [3/8] Compile [x64] AIEnemy.gen.cpp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [4/8] Compile [x64] FriendlyNPC.gen.cpp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [5/8] Compile [x64] AIEnemy.cpp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [6/8] Link [x64] UnrealEditor-VerticalGJ_Group1-6157.lib
+[2023.12.04-15.36.35:160][119]CompilerResultsLog:    Creating library D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-6157.lib and object D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-6157.exp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [7/8] Link [x64] UnrealEditor-VerticalGJ_Group1-6157.dll
+[2023.12.04-15.36.35:160][119]CompilerResultsLog:    Creating library D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-6157.suppressed.lib and object D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-6157.suppressed.exp
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: [8/8] WriteMetadata VerticalGJ_Group1Editor.target
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: Total time in Parallel executor: 2.38 seconds
+[2023.12.04-15.36.35:160][119]CompilerResultsLog: Total execution time: 8.28 seconds
+[2023.12.04-15.36.35:160][119]LogMainFrame: MainFrame: Module compiling took 8.689 seconds
+[2023.12.04-15.36.35:194][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.12.04-15.36.35:217][119]LogClass: UPackage /Script/VerticalGJ_Group1 Reload.
+[2023.12.04-15.36.35:217][119]LogClass: Could not find existing class AIEnemy in package /Script/VerticalGJ_Group1 for reload, assuming new or modified class
+[2023.12.04-15.36.35:420][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.12.04-15.36.35:458][119]Display: HotReload took  9.0s.
+[2023.12.04-15.36.35:458][119]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 5 classes unchanged, 2 enums unchanged, 2 scriptstructs unchanged, 2 functions remapped, 2 scriptstructs remapped
+[2023.12.04-15.36.35:459][119]Warning: HotReload operation took  9.0s.
+[2023.12.04-15.36.35:637][119]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.12.04-15.36.36:057][119]LogHotReload: New module detected: UnrealEditor-VerticalGJ_Group1-6157.dll
+[2023.12.04-15.36.36:106][120]LogHotReload: Starting Hot-Reload from IDE
+[2023.12.04-15.36.36:280][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.12.04-15.36.36:370][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.12.04-15.36.36:440][120]Display: HotReload took  0.3s.
+[2023.12.04-15.36.36:440][120]Display: Reload/Re-instancing Complete: 2 scriptstructs remapped
+[2023.12.04-15.37.10:861][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.12.04-15.37.10:872][222]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.095
+[2023.12.04-15.38.20:031][595]Candidate modules for hot reload:
+[2023.12.04-15.38.20:032][595]  VerticalGJ_Group1
+[2023.12.04-15.38.20:044][595]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=VerticalGJ_Group1,9751 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk]
+[2023.12.04-15.38.20:059][595]Warning: Starting HotReload took  0.1s.
+[2023.12.04-15.38.25:289][ 89]CompilerResultsLog: New page: Compilation - 4 Dec 2023, 15:38:25
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=VerticalGJ_Group1,9751 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Log file: C:\Users\2202621\AppData\Local\UnrealBuildTool\Log.txt
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProjects\Group1-VerticalGJ).
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Invalidating makefile for VerticalGJ_Group1Editor (working set of source files changed)
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Parsing headers for VerticalGJ_Group1Editor
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog:   Running Internal UnrealHeaderTool D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\VerticalGJ_Group1.uproject D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\VerticalGJ_Group1Editor\Development\VerticalGJ_Group1Editor.uhtmanifest -WarningsAsErrors -installed
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\Enemy.h(11) : Error: Enum 'EEnemyType' shares engine name 'EEnemyType' with enum 'EEnemyType' in D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(10)
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Total of 0 written
+[2023.12.04-15.38.25:290][ 89]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\Enemy.h(21) : Error: Struct 'FEnemyProperties' shares engine name 'EnemyProperties' with struct 'FEnemyProperties' in D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(20)
+[2023.12.04-15.38.25:290][ 89]LogMainFrame: MainFrame: Module compiling took 5.286 seconds
+[2023.12.04-15.38.25:290][ 89]Warning: HotReload failed, recompile failed
+[2023.12.04-15.39.03:545][875]Candidate modules for hot reload:
+[2023.12.04-15.39.03:546][875]  VerticalGJ_Group1
+[2023.12.04-15.39.03:556][875]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=VerticalGJ_Group1,0628 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk]
+[2023.12.04-15.39.03:567][875]Warning: Starting HotReload took  0.0s.
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: New page: Compilation - 4 Dec 2023, 15:39:10
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=VerticalGJ_Group1,0628 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Log file: C:\Users\2202621\AppData\Local\UnrealBuildTool\Log.txt
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProjects\Group1-VerticalGJ).
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Invalidating makefile for VerticalGJ_Group1Editor (working set of source files changed)
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Parsing headers for VerticalGJ_Group1Editor
+[2023.12.04-15.39.10:886][559]CompilerResultsLog:   Running Internal UnrealHeaderTool D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\VerticalGJ_Group1.uproject D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\VerticalGJ_Group1Editor\Development\VerticalGJ_Group1Editor.uhtmanifest -WarningsAsErrors -installed
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Total of 3 written
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Reflection code generated for VerticalGJ_Group1Editor in 2.5459035 seconds
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Building VerticalGJ_Group1Editor...
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Using Visual Studio 2022 14.29.30151 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [Upgrade]
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in VerticalGJ_Group1Editor.Target.cs.
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [Upgrade]
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [Adaptive Build] Excluded from VerticalGJ_Group1 unity file: AIEnemy.cpp
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Determining max actions to execute in parallel (10 physical cores, 20 logical cores)
+[2023.12.04-15.39.10:886][559]CompilerResultsLog:   Executing up to 10 processes, one per physical core
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Building 8 actions with 8 processes...
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: [1/8] Compile [x64] AIEnemy.gen.cpp
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(29) : error C3646: 'type': unknown override specifier
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(44) : error C2065: 'type': undeclared identifier
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT\AIEnemy.gen.cpp(141) : error C2039: 'type': is not a member of 'FAIEnemyProperties'
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(21): note: see declaration of 'FAIEnemyProperties'
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT\AIEnemy.gen.cpp(141) : error C2618: illegal member designator in offsetof
+[2023.12.04-15.39.10:886][559]CompilerResultsLog: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT\AIEnemy.gen.cpp(141): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: [2/8] Compile [x64] AIEnemy.cpp
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(29) : error C3646: 'type': unknown override specifier
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: Error: D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\AIEnemy.h(44) : error C2065: 'type': undeclared identifier
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: [3/8] Compile [x64] VerticalGJ_Group1.init.gen.cpp
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: [4/8] Compile [x64] Enemy.cpp
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: [5/8] Compile [x64] Enemy.gen.cpp
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: [6/8] Link [x64] UnrealEditor-VerticalGJ_Group1-0628.dll cancelled
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: [7/8] Link [x64] UnrealEditor-VerticalGJ_Group1-0628.lib cancelled
+[2023.12.04-15.39.10:887][559]CompilerResultsLog: [8/8] WriteMetadata VerticalGJ_Group1Editor.target cancelled
+[2023.12.04-15.39.10:887][559]LogMainFrame: MainFrame: Module compiling took 7.356 seconds
+[2023.12.04-15.39.10:887][559]Warning: HotReload failed, recompile failed
+[2023.12.04-15.39.31:119][400]Candidate modules for hot reload:
+[2023.12.04-15.39.31:119][400]  VerticalGJ_Group1
+[2023.12.04-15.39.31:129][400]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=VerticalGJ_Group1,9112 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk]
+[2023.12.04-15.39.31:138][400]Warning: Starting HotReload took  0.0s.
+[2023.12.04-15.39.40:107][240]CompilerResultsLog: New page: Compilation - 4 Dec 2023, 15:39:40
+[2023.12.04-15.39.40:107][240]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=VerticalGJ_Group1,9112 VerticalGJ_Group1Editor Win64 Development -Project="D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject" "D:/UnrealProjects/Group1-VerticalGJ/VerticalGJ_Group1/VerticalGJ_Group1.uproject"  -IgnoreJunk
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Log file: C:\Users\2202621\AppData\Local\UnrealBuildTool\Log.txt
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProjects\Group1-VerticalGJ).
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Invalidating makefile for VerticalGJ_Group1Editor (working set of source files changed)
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Parsing headers for VerticalGJ_Group1Editor
+[2023.12.04-15.39.40:108][240]CompilerResultsLog:   Running Internal UnrealHeaderTool D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\VerticalGJ_Group1.uproject D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\VerticalGJ_Group1Editor\Development\VerticalGJ_Group1Editor.uhtmanifest -WarningsAsErrors -installed
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Total of 2 written
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Reflection code generated for VerticalGJ_Group1Editor in 2.516804 seconds
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Building VerticalGJ_Group1Editor...
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Using Visual Studio 2022 14.29.30151 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [Upgrade]
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in VerticalGJ_Group1Editor.Target.cs.
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [Upgrade]
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [Adaptive Build] Excluded from VerticalGJ_Group1 unity file: AIEnemy.cpp
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Determining max actions to execute in parallel (10 physical cores, 20 logical cores)
+[2023.12.04-15.39.40:108][240]CompilerResultsLog:   Executing up to 10 processes, one per physical core
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Building 6 actions with 6 processes...
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [1/6] Compile [x64] VerticalGJ_Group1.init.gen.cpp
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [2/6] Compile [x64] AIEnemy.cpp
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [3/6] Compile [x64] AIEnemy.gen.cpp
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-VerticalGJ_Group1-9112.lib
+[2023.12.04-15.39.40:108][240]CompilerResultsLog:    Creating library D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-9112.lib and object D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-9112.exp
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-VerticalGJ_Group1-9112.dll
+[2023.12.04-15.39.40:108][240]CompilerResultsLog:    Creating library D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-9112.suppressed.lib and object D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1-9112.suppressed.exp
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: [6/6] WriteMetadata VerticalGJ_Group1Editor.target
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Total time in Parallel executor: 2.53 seconds
+[2023.12.04-15.39.40:108][240]CompilerResultsLog: Total execution time: 8.57 seconds
+[2023.12.04-15.39.40:108][240]LogMainFrame: MainFrame: Module compiling took 8.999 seconds
+[2023.12.04-15.39.40:141][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.12.04-15.39.40:161][240]LogClass: UPackage /Script/VerticalGJ_Group1 Reload.
+[2023.12.04-15.39.40:161][240]LogClass: UClass AIEnemy Reload.
+[2023.12.04-15.39.40:161][240]LogClass: Could not find existing class AIEnemy in package /Script/VerticalGJ_Group1 for reload, assuming new or modified class
+[2023.12.04-15.39.40:194][240]Re-instancing AIEnemy after reload.
+[2023.12.04-15.39.40:389][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.12.04-15.39.40:423][240]Display: HotReload took  9.3s.
+[2023.12.04-15.39.40:424][240]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 5 classes unchanged, 1 enum new, 2 enums unchanged, 1 scriptstruct new, 2 scriptstructs unchanged, 2 functions remapped, 3 scriptstructs remapped
+[2023.12.04-15.47.02:343][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-15.47.02:544][556]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.12.04-15.47.02:631][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.12.04-15.47.02:678][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.12.04-15.47.02:689][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 345 ms (total: 840 ms)
+[2023.12.04-15.47.11:363][850]LogEditor: Attempting to add actor of class 'AIEnemy' to level at 800.00,980.00,0.00
+[2023.12.04-15.47.11:373][850]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.04-15.47.14:896][239]LogEditor: Attempting to add actor of class 'AIEnemy' to level at 740.00,980.00,0.00
+[2023.12.04-15.47.14:903][239]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.04-15.47.15:282][279]LogEditor: Attempting to add actor of class 'AIEnemy' to level at 980.00,1000.00,0.00
+[2023.12.04-15.47.22:445][ 87]Cmd: DELETE
+[2023.12.04-15.47.22:445][ 87]Cmd: ACTOR DELETE
+[2023.12.04-15.47.22:446][ 87]LogEditorActor: Deleted Actor: AIEnemy
+[2023.12.04-15.47.22:475][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.12.04-15.47.22:482][ 87]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2023.12.04-15.47.23:803][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-15.47.23:900][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.12.04-15.47.23:926][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.12.04-15.47.23:951][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.12.04-15.47.23:959][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 995 ms)
