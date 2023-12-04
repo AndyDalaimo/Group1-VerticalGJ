@@ -33,6 +33,12 @@
     <Filter Include="Source\VerticalGJ_Group1">
       <UniqueIdentifier>{F6AEC39F-5C19-3D7B-A5A8-FCF69040B71B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\VerticalGJ_Group1\Enemy.cpp">
+      <Filter>Source\VerticalGJ_Group1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VerticalGJ_Group1\Enemy.h">
+      <Filter>Source\VerticalGJ_Group1</Filter>
+    </ClInclude>
     <None Include="..\..\Source\VerticalGJ_Group1\VerticalGJ_Group1.Build.cs">
       <Filter>Source\VerticalGJ_Group1</Filter>
     </None>
