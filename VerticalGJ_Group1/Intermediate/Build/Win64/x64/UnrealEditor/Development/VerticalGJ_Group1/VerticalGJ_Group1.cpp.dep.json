@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.cpp",
+        "Source": "d:\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.cpp",
         "ProvidedModule": "",
-        "PCH": "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "PCH": "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
         "Includes": [
-            "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\verticalgj_group1\\definitions.verticalgj_group1.h",
-            "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.h"
+            "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\verticalgj_group1\\definitions.verticalgj_group1.h",
+            "d:\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
