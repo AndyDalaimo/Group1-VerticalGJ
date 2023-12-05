@@ -1,8 +1,14 @@
 {
 	"SourceFiles": [
+<<<<<<< HEAD
 		"R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1\\VerticalGJ_Group1.Build.cs",
 		"R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
 		"R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs"
+=======
+		"D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1\\VerticalGJ_Group1.Build.cs",
+		"D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
+		"D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs"
+>>>>>>> dev
 	],
 	"EngineVersion": "5.2.1"
 }
