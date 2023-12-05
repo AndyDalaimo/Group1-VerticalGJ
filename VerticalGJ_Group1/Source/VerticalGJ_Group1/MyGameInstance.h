@@ -34,8 +34,19 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void ExitStoreUIWidget();
 
+	UFUNCTION(BlueprintCallable)
+	void ShowGameOverWidget();
 
+	UFUNCTION(BlueprintCallable)
+	void ExitGameOverWidget();
 
+	UFUNCTION(BlueprintCallable)
+	void ShowMainMenuUIWidget();
+
+	UFUNCTION(BlueprintCallable)
+	void ExitMainMenuUIWidget();
+
+	// Player resources and in game economy management
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		int32 PlayerResources;
 
@@ -48,6 +59,8 @@ private:
 	// Widget class for creating UI Widgets
 	TSubclassOf<class UUserWidget> HUDUIWidgetClass;
 	TSubclassOf<class UUserWidget> StoreUIWidgetClass;
+	TSubclassOf<class UUserWidget> GameOverUIWidgetClass;
+	TSubclassOf<class UUserWidget> MainMenuUIWidgetClass;
 
 	// Reference to player Controller
 	APlayerController* PlayerControllerRef;
