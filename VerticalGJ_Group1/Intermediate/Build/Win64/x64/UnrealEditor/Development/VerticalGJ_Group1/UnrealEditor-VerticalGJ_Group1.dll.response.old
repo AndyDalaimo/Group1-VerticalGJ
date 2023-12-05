@@ -34,17 +34,22 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 <<<<<<< HEAD
-<<<<<<< HEAD
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.gen.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.init.gen.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.gen.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.cpp.obj"
-"D:\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Default.rc2.res"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\AIEnemy.gen.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.gen.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\FriendlyNPC.gen.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\MyGameInstance.gen.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.init.gen.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.gen.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\AIEnemy.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\FriendlyNPC.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\MyGameInstance.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.cpp.obj"
+"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Default.rc2.res"
 =======
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\AIEnemy.gen.cpp.obj"
@@ -54,34 +59,15 @@
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.init.gen.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.gen.cpp.obj"
-<<<<<<< HEAD
-=======
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\AIEnemy.cpp.obj"
->>>>>>> dev
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\FriendlyNPC.cpp.obj"
-"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\MyGameInstance.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.cpp.obj"
-<<<<<<< HEAD
-"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\AIEnemy.cpp.obj"
-=======
->>>>>>> dev
+"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\MyGameInstance.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Default.rc2.res"
 >>>>>>> dev
-=======
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.gen.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.init.gen.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.gen.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.cpp.obj"
-"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Default.rc2.res"
->>>>>>> JacksBranch
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
@@ -113,7 +99,13 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
+<<<<<<< HEAD
 /OUT:"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Binaries\Win64\UnrealEditor-VerticalGJ_Group1.dll"
 /IMPLIB:"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1.suppressed.lib"
 /PDB:"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Binaries\Win64\UnrealEditor-VerticalGJ_Group1.pdb"
+=======
+/OUT:"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Binaries\Win64\UnrealEditor-VerticalGJ_Group1.dll"
+/IMPLIB:"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\UnrealEditor-VerticalGJ_Group1.suppressed.lib"
+/PDB:"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Binaries\Win64\UnrealEditor-VerticalGJ_Group1.pdb"
+>>>>>>> dev
 /ignore:4078

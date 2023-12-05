@@ -2,20 +2,12 @@
 	"Targets": [
 		{
 			"Name": "VerticalGJ_Group1",
-<<<<<<< HEAD
-			"Path": "R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
-=======
-			"Path": "D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
->>>>>>> dev
+			"Path": "D:\\2201159\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "VerticalGJ_Group1Editor",
-<<<<<<< HEAD
-			"Path": "R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs",
-=======
-			"Path": "D:\\UnrealProjects\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs",
->>>>>>> dev
+			"Path": "D:\\2201159\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]
