@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_VerticalGJ_Group1,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemy_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Enemy.h" },
@@ -57,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		0,
 		0,
 		0x009000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_AEnemy_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::Class_MetaDataParams), Z_Construct_UClass_AEnemy_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_AEnemy()
 	{
@@ -73,15 +74,15 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemy);
 	AEnemy::~AEnemy() {}
-	struct Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics
+	struct Z_CompiledInDeferFile_FID_Uni_Work_Year_3_Group1_VerticalGJ_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemy, AEnemy::StaticClass, TEXT("AEnemy"), &Z_Registration_Info_UClass_AEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy), 4160648064U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Uni_Work_Year_3_Group1_VerticalGJ_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AEnemy, AEnemy::StaticClass, TEXT("AEnemy"), &Z_Registration_Info_UClass_AEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy), 1725227117U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_1185736475(TEXT("/Script/VerticalGJ_Group1"),
-		Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Uni_Work_Year_3_Group1_VerticalGJ_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_894200383(TEXT("/Script/VerticalGJ_Group1"),
+		Z_CompiledInDeferFile_FID_Uni_Work_Year_3_Group1_VerticalGJ_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Uni_Work_Year_3_Group1_VerticalGJ_VerticalGJ_Group1_Source_VerticalGJ_Group1_Enemy_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

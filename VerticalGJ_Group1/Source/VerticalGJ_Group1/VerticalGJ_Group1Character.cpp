@@ -134,7 +134,7 @@ void AVerticalGJ_Group1Character::Fire(FVector Loc, FRotator Rot, UClass* Spawni
 {
 	
 	UE_LOG(LogTemp, Warning, TEXT("This works :)"))
-		FVector Direction = FRotationMatrix(GetControlRotation()).GetScaledAxis(EAxis::Y);
+	FVector Direction = FRotationMatrix(GetControlRotation()).GetScaledAxis(EAxis::Y);
 	
 	AActor* newActor = GetWorld()->SpawnActor<AActor>(Spawning, Loc, Rot);
 	newActor->GetRootComponent()->ComponentVelocity = Direction;
