@@ -8,6 +8,7 @@
 
 UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(10)
 {
+
 	static ConstructorHelpers::FClassFinder<UUserWidget> HUDFinder(TEXT("/Game/UI/WBP_HUD"));
 
 	if (!HUDFinder.Succeeded())

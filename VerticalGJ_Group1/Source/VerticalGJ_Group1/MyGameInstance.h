@@ -19,8 +19,7 @@ public:
 
 	UMyGameInstance(const FObjectInitializer& ObjectInitializer);
 
-	UFUNCTION()
-		virtual void Init();
+	virtual void Init();
 
 	// Helper Functions for Showing UI Widgets
 	UFUNCTION(BlueprintCallable)
@@ -37,5 +36,8 @@ public:
 private:
 
 	// HUD with Game Timer
-	TSubclassOf<UUserWidget> HUDUIWidgetClass;
+	TSubclassOf<class UUserWidget> HUDUIWidgetClass;
+
+public:
+
 };
