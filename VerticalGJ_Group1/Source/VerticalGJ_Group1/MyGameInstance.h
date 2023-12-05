@@ -25,6 +25,16 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void ShowHUDUIWidget();
 
+	UFUNCTION(BlueprintCallable)
+	void ExitHUDUIWidget();
+
+	UFUNCTION(BlueprintCallable)
+	void ShowStoreUIWidget();
+
+	UFUNCTION(BlueprintCallable)
+	void ExitStoreUIWidget();
+
+
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		int32 PlayerResources;
@@ -35,8 +45,12 @@ public:
 	
 private:
 
-	// HUD with Game Timer
+	// Widget class for creating UI Widgets
 	TSubclassOf<class UUserWidget> HUDUIWidgetClass;
+	TSubclassOf<class UUserWidget> StoreUIWidgetClass;
+
+	// Reference to player Controller
+	APlayerController* PlayerControllerRef;
 
 public:
 
