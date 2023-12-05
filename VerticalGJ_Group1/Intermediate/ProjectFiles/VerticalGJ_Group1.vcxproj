@@ -172,6 +172,7 @@
     <None Include="..\..\VerticalGJ_Group1.uproject"/>
     <None Include="..\..\Source\VerticalGJ_Group1.Target.cs"/>
     <None Include="..\..\Source\VerticalGJ_Group1Editor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
     <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\README.md"/>

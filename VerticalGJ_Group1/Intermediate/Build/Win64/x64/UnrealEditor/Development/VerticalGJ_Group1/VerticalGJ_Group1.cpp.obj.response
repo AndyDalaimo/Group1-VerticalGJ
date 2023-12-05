@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 "R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\VerticalGJ_Group1.cpp"
+=======
+D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source\VerticalGJ_Group1\VerticalGJ_Group1.cpp
+>>>>>>> dev
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
@@ -272,8 +276,13 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
+<<<<<<< HEAD
 /I "R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT"
 /I "R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Source"
+=======
+/I D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\UnrealEditor\Inc\VerticalGJ_Group1\UHT
+/I D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Source
+>>>>>>> dev
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality\UHT
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh\UHT
@@ -285,6 +294,7 @@
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
+<<<<<<< HEAD
 /external:I "R:\Storrrr\Visual Studios\New folder\VC\Tools\MSVC\14.34.31933\INCLUDE"
 /external:I "R:\Windows Kits\10\include\10.0.19041.0\ucrt"
 /external:I "R:\Windows Kits\10\include\10.0.19041.0\shared"
@@ -296,6 +306,19 @@
 /Fp"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
 /Fo"R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.obj"
 /sourceDependencies "R:\Vertical Studio Game Jam\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.dep.json"
+=======
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Definitions.VerticalGJ_Group1.h"
+/Yu"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\VerticalGJ_Group1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.obj"
+/sourceDependencies D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.dep.json
+>>>>>>> dev
 /Zc:inline
 /nologo
 /Oi
