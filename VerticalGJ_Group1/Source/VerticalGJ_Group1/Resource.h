@@ -26,9 +26,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Mesh, meta = (AllowPrivatAccess = "true"))
 	class UStaticMeshComponent* Mesh;
 
-	// BoxCollider for Resource
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Collision, meta = (AllowPrivateAccess = "true"))
-	class UBoxComponent* BoxCollider;
 
 public:	
 	// Sets default values for this actor's properties
@@ -39,14 +36,11 @@ public:
 	
 	// Type of Resource droped. 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Resource Properties")
-		EResourceType Type;
+	EResourceType Type;
 
 	// Value for Resource bassed on type
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Resource Properties")
 	int32 Value;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Instance Ref")
-	UMyGameInstance* GameInstanceRef;
 
 
 protected:
@@ -56,12 +50,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	UFUNCTION(BlueprintNativeEvent)
-	void ResourceCollisionEvent(UPrimitiveComponent* OverlappedComp, 
-		AActor* OtherActor, 
-		UPrimitiveComponent* 
-		OtherComp, 
-		int32 OtherBodyIndex);
 
 };
