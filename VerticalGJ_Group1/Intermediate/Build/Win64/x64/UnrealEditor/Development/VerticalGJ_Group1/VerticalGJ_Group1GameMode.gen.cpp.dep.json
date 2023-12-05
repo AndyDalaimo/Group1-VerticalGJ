@@ -1,17 +1,17 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\unrealeditor\\inc\\verticalgj_group1\\uht\\verticalgj_group1gamemode.gen.cpp",
+        "Source": "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\unrealeditor\\inc\\verticalgj_group1\\uht\\verticalgj_group1gamemode.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "PCH": "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\verticalgj_group1editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
         "Includes": [
-            "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\verticalgj_group1\\definitions.verticalgj_group1.h",
-            "d:\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1gamemode.h",
-            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
-            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
-            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
-            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "d:\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\unrealeditor\\inc\\verticalgj_group1\\uht\\verticalgj_group1gamemode.generated.h"
+            "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\verticalgj_group1\\definitions.verticalgj_group1.h",
+            "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\source\\verticalgj_group1\\verticalgj_group1gamemode.h",
+            "a:\\unreal 4\\game engine\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "a:\\unreal 4\\game engine\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "a:\\unreal 4\\game engine\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "a:\\unreal 4\\game engine\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "r:\\vertical studio game jam\\group1-verticalgj\\verticalgj_group1\\intermediate\\build\\win64\\unrealeditor\\inc\\verticalgj_group1\\uht\\verticalgj_group1gamemode.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
