@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Components/BoxComponent.h"
+#include "Components/AudioComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "AIEnemy.generated.h"
 
 // Enum for defining different enemy Types
@@ -54,6 +57,20 @@ class VERTICALGJ_GROUP1_API AAIEnemy : public APawn
 {
 	GENERATED_BODY()
 
+	// Capsule Component for Enemy
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Capsule, meta = (AllowPrivateAccess = "true"))
+	class UCapsuleComponent* CapsuleComponent;
+
+	// BoxCollider for AI Enemy
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Collision, meta = (AllowPrivateAccess = "true"))
+	class UBoxComponent* BoxCollider;
+
+	// Audio Component for Enemy
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Audio, meta = (AllowPrivateAccess = "true"))
+	class UAudioComponent* AudioComponent;
+
+
+
 public:
 	// Sets default values for this pawn's properties
 	AAIEnemy();
@@ -61,6 +78,8 @@ public:
 	// Struct holding all of the Enemy properties (HP, Damage, Speed, isFlying)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Properties")
 	FAIEnemyProperties EnemyProperties;
+
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -72,5 +91,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+	UFUNCTION(BlueprintNativeEvent)
+		void EnemyCollisionEvent(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+private:
 
 };
