@@ -11,6 +11,7 @@
     <None Include="..\..\Source\VerticalGJ_Group1Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <None Include="..\..\README.md" />

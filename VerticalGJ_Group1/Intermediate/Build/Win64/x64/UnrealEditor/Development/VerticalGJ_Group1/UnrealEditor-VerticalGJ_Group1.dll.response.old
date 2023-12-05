@@ -54,13 +54,20 @@
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.init.gen.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.gen.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.gen.cpp.obj"
+<<<<<<< HEAD
+=======
+"D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\AIEnemy.cpp.obj"
+>>>>>>> dev
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Enemy.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\FriendlyNPC.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\MyGameInstance.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1Character.cpp.obj"
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\VerticalGJ_Group1GameMode.cpp.obj"
+<<<<<<< HEAD
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\AIEnemy.cpp.obj"
+=======
+>>>>>>> dev
 "D:\UnrealProjects\Group1-VerticalGJ\VerticalGJ_Group1\Intermediate\Build\Win64\x64\UnrealEditor\Development\VerticalGJ_Group1\Default.rc2.res"
 >>>>>>> dev
 =======
@@ -81,6 +88,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\HeadMountedDisplay\UnrealEditor-HeadMountedDisplay.lib"
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UMG\UnrealEditor-UMG.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
