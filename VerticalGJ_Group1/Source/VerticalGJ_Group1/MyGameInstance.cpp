@@ -38,10 +38,6 @@ void UMyGameInstance::Init()
 
 	PlayerResources = 10;
 
-	if (HUDUIWidgetClass) {
-		// ShowHUDUIWidget();
-		// ShowStoreUIWidget();
-	}
 }
 
 // -----------------------------------------------------------------------------------
@@ -201,6 +197,8 @@ void UMyGameInstance::ExitMainMenuUIWidget()
 void UMyGameInstance::AddResources(int32 resource)
 {
 	PlayerResources += resource;
+
+	UE_LOG(LogTemp, Warning, TEXT("Player Resources: %d"), PlayerResources);
 }
 
 
