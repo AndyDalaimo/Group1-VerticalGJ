@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1\\VerticalGJ_Group1.Build.cs",
-		"R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
-		"R:\\Vertical Studio Game Jam\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs"
+		"D:\\2002424\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1\\VerticalGJ_Group1.Build.cs",
+		"D:\\2002424\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1.Target.cs",
+		"D:\\2002424\\Group1-VerticalGJ\\VerticalGJ_Group1\\Source\\VerticalGJ_Group1Editor.Target.cs"
 	],
 	"EngineVersion": "5.2.1"
 }
