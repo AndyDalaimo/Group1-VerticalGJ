@@ -4,7 +4,7 @@
 #include "Resource.h"
 
 // Sets default values
-AResource::AResource()
+AResource::AResource() : lifeSpan(7.f)
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -20,8 +20,10 @@ void AResource::BeginPlay()
 {
 	Super::BeginPlay();
 
-// Set value for Player Pickup in Game Instance
+	// Set value for Player Pickup in Game Instance
 	InitializeResourceValue((uint8)Type);
+
+	this->SetLifeSpan(lifeSpan);
 }
 
 // Called every frame
