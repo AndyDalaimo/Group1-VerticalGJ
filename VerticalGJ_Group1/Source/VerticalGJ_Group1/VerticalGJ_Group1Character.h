@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Components/CapsuleComponent.h"
 #include "InputActionValue.h"
 #include "VerticalGJ_Group1Character.generated.h"
 
@@ -13,10 +12,7 @@ UCLASS(config=Game)
 class AVerticalGJ_Group1Character : public ACharacter
 {
 	GENERATED_BODY()
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = ResourceCollision, meta = (AllowPrivateAccess = "true"))
-	class UCapsuleComponent* ResourceCollision;
-
+	
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
@@ -48,19 +44,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
 		bool GetRotated;
 
-	// Properties and Helper functions for player upgrades
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Projectile)
-		bool ProjectileUpgrade;
-
-	UFUNCTION(BlueprintCallable)
-		void UpgradeCollisionRadius(float radiusIncrease);
-
-	UFUNCTION(BlueprintCallable)
-		void UpgradeWalkSpeed(float walkIncrease);
-
-	UFUNCTION(BlueprintCallable)
-		void UpgradeProjectile();
-
 protected:
 
 	/** Called for movement input */
@@ -68,6 +51,9 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+	
+	UFUNCTION(BlueprintCallable)
+	void Fire(FVector Loc, FRotator Rot, UClass* Spawning);
 			
 
 protected:
