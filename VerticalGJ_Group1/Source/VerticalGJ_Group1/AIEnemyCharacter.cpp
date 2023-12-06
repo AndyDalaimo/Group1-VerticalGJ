@@ -13,11 +13,51 @@ AAIEnemyCharacter::AAIEnemyCharacter()
 	EnemyProperties.Initialize();
 }
 
+
+
+
 // Called when the game starts or when spawned
 void AAIEnemyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// Set up Enemy on Begin Play
+	InitializeEnemyProperties((uint8)EnemyProperties.type);
 	
+}
+
+// Set up properties based on type
+void AAIEnemyCharacter::InitializeEnemyProperties(uint8 type)
+{
+	switch (type)
+	{
+	case (0) :
+		EnemyProperties.HP = 100;
+		EnemyProperties.damage = 10;
+		EnemyProperties.speed = 400.f;
+		return;
+	case (1) :
+		EnemyProperties.HP = 100;
+		EnemyProperties.damage = 20;
+		EnemyProperties.speed = 300.f;
+		return;
+	case (2) :
+		EnemyProperties.HP = 150;
+		EnemyProperties.damage = 20;
+		EnemyProperties.speed = 275.f;
+		return;
+	case (3) :
+		EnemyProperties.HP = 100;
+		EnemyProperties.damage = 20;
+		EnemyProperties.speed = 300.f;
+		return;
+	default :
+		EnemyProperties.HP = 100;
+		EnemyProperties.damage = 10;
+		EnemyProperties.speed = 400.f;
+		return;
+	}
+	return;
 }
 
 // Called every frame

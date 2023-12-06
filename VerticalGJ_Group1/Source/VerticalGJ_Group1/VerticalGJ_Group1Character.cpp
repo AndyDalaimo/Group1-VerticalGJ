@@ -122,8 +122,6 @@ void AVerticalGJ_Group1Character::Move(const FInputActionValue& Value)
 
 		if (MovementVector.X > 0) GetRotated = false;
 		else if (MovementVector.X < 0) GetRotated = true;
-
-		UE_LOG(LogTemp, Warning, TEXT("Movement Vector X: %f"), MovementVector.X);
 	}
 }
 
@@ -139,6 +137,8 @@ void AVerticalGJ_Group1Character::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+
+
 void AVerticalGJ_Group1Character::Fire(FVector Loc, FRotator Rot, UClass* Spawning)
 {
 	
