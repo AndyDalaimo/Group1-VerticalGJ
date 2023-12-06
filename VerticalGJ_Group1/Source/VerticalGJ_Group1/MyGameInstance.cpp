@@ -201,4 +201,12 @@ void UMyGameInstance::AddResources(int32 resource)
 	UE_LOG(LogTemp, Warning, TEXT("Player Resources: %d"), PlayerResources);
 }
 
+// Called when Player purchases something in the store
+void UMyGameInstance::SubtractResources(int32 purchaseAmount)
+{
+	PlayerResources -= purchaseAmount;
+
+	UE_LOG(LogTemp, Warning, TEXT("Player Resources: %d"), PlayerResources);
+}
+
 

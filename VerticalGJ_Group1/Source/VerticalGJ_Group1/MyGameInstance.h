@@ -50,8 +50,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		int32 PlayerResources;
 
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable)
 		void AddResources(int32 resource);
+
+	UFUNCTION(BlueprintCallable)
+		void SubtractResources(int32 purchaseAmount);
 
 	
 private:

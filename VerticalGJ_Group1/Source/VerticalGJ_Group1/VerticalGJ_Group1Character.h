@@ -37,9 +37,12 @@ class AVerticalGJ_Group1Character : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* LookAction;
 
+
 public:
 	AVerticalGJ_Group1Character();
 	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
+		bool GetRotated;
 
 protected:
 

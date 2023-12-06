@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "MyGameInstance.h"
+#include "Kismet/GameplayStatics.h"
 #include "Components/BoxComponent.h"
 #include "Resource.generated.h"
 
@@ -41,6 +42,10 @@ public:
 	// Value for Resource bassed on type
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Resource Properties")
 	int32 Value;
+
+	// LifeSpan Value to tweak later
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Resource Properties")
+	float lifeSpan;
 
 
 protected:
