@@ -6,7 +6,8 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
 
-UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(10)
+UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(10), Cost_WalkSpeed(1000), 
+Cost_RadiusIncrease(1000), Cost_ProjectileUpgrade(1000)
 {
 
 	static ConstructorHelpers::FClassFinder<UUserWidget> HUDFinder(TEXT("/Game/UI/WBP_HUD"));

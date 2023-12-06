@@ -13,7 +13,7 @@ UCLASS(config=Game)
 class AVerticalGJ_Group1Character : public ACharacter
 {
 	GENERATED_BODY()
-
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = ResourceCollision, meta = (AllowPrivateAccess = "true"))
 	class UCapsuleComponent* ResourceCollision;
 
@@ -48,6 +48,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
 		bool GetRotated;
 
+
 	// Properties and Helper functions for player upgrades
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Projectile)
 		bool ProjectileUpgrade;
@@ -68,6 +69,9 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+	
+	UFUNCTION(BlueprintCallable)
+	void Fire(FVector Loc, FRotator Rot, UClass* Spawning);
 			
 
 protected:
