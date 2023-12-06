@@ -6,7 +6,7 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
 
-UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(10), Cost_WalkSpeed(1000), 
+UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(20000), Cost_WalkSpeed(1000), 
 Cost_RadiusIncrease(1000), Cost_ProjectileUpgrade(1000)
 {
 
@@ -37,7 +37,8 @@ void UMyGameInstance::Init()
 {
 	Super::Init();
 
-	PlayerResources = 10;
+	// TESTING
+	PlayerResources = 20000;
 }
 
 // -----------------------------------------------------------------------------------

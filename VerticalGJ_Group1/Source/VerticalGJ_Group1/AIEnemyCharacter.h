@@ -64,6 +64,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Properties")
 		FAIEnemyCharacterProperties EnemyProperties;
 
+	UFUNCTION(BlueprintCallable)
+		void InitializeEnemyProperties(uint8 type);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
