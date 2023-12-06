@@ -14,7 +14,7 @@
 //////////////////////////////////////////////////////////////////////////
 // AVerticalGJ_Group1Character
 
-AVerticalGJ_Group1Character::AVerticalGJ_Group1Character()
+AVerticalGJ_Group1Character::AVerticalGJ_Group1Character() : GetRotated(false)
 {
 
 	enum Weapon {
@@ -115,6 +115,11 @@ void AVerticalGJ_Group1Character::Move(const FInputActionValue& Value)
 		// add movement 
 		AddMovementInput(ForwardDirection, MovementVector.Y);
 		AddMovementInput(RightDirection, MovementVector.X);
+
+		if (MovementVector.X > 0) GetRotated = false;
+		else if (MovementVector.X < 0) GetRotated = true;
+
+		UE_LOG(LogTemp, Warning, TEXT("Movement Vector X: %f"), MovementVector.X);
 	}
 }
 
