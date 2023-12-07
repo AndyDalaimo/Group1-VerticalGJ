@@ -92,7 +92,7 @@ void UMyGameInstance::ShowStoreUIWidget()
 void UMyGameInstance::ExitStoreUIWidget()
 {
 	// Remove Store UI from viewport
-	UWidgetLayoutLibrary::RemoveAllWidgets(GetWorld());
+	// UWidgetLayoutLibrary::RemoveAllWidgets(GetWorld());
 
 	// APlayerController* PlayerController = GetFirstLocalPlayerController();
 	if (PlayerControllerRef == NULL)
