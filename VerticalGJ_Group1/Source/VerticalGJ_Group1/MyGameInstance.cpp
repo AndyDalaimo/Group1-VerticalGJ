@@ -106,7 +106,7 @@ void UMyGameInstance::ExitStoreUIWidget()
 
 		// Set Input Mode
 		PlayerControllerRef->SetInputMode(InputModeData);
-		PlayerControllerRef->bShowMouseCursor = false;
+		PlayerControllerRef->bShowMouseCursor = true;
 	}
 }
 
