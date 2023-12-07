@@ -6,7 +6,8 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
 
-UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(10)
+UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(20000), Cost_WalkSpeed(1000), 
+Cost_RadiusIncrease(1000), Cost_ProjectileUpgrade(1000)
 {
 
 	static ConstructorHelpers::FClassFinder<UUserWidget> HUDFinder(TEXT("/Game/UI/WBP_HUD"));
@@ -36,12 +37,8 @@ void UMyGameInstance::Init()
 {
 	Super::Init();
 
-	PlayerResources = 10;
-
-	if (HUDUIWidgetClass) {
-		// ShowHUDUIWidget();
-		// ShowStoreUIWidget();
-	}
+	// TESTING
+	PlayerResources = 20000;
 }
 
 // -----------------------------------------------------------------------------------
@@ -201,6 +198,16 @@ void UMyGameInstance::ExitMainMenuUIWidget()
 void UMyGameInstance::AddResources(int32 resource)
 {
 	PlayerResources += resource;
+
+	UE_LOG(LogTemp, Warning, TEXT("Player Resources: %d"), PlayerResources);
+}
+
+// Called when Player purchases something in the store
+void UMyGameInstance::SubtractResources(int32 purchaseAmount)
+{
+	PlayerResources -= purchaseAmount;
+
+	UE_LOG(LogTemp, Warning, TEXT("Player Resources: %d"), PlayerResources);
 }
 
 
