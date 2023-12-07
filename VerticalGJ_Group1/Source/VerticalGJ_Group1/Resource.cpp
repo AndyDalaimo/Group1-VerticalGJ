@@ -37,19 +37,21 @@ void AResource::Tick(float DeltaTime)
 // Type to be set in the Children Blueprint 
 void AResource::InitializeResourceValue(uint8 type)
 {
+	type = FMath::RandRange(0, 2);
+
 	switch (type)
 	{
 	case (0) :
-		Value = 10.f;
-		return;
-	case (1) :
 		Value = 25.f;
 		return;
+	case (1) :
+		Value = 75.f;
+		return;
 	case (2) :
-		Value = 50.f;
+		Value = 125.f;
 		return;
 	default :
-		Value = 10.f;
+		Value = 25.f;
 		return;
 	}
 	return;

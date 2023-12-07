@@ -48,10 +48,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
 		bool GetRotated;
 
-
 	// Properties and Helper functions for player upgrades
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Projectile)
-		bool ProjectileUpgrade;
+		float ProjectileUpgrade;
 
 	UFUNCTION(BlueprintCallable)
 		void UpgradeCollisionRadius(float radiusIncrease);
@@ -60,7 +59,7 @@ public:
 		void UpgradeWalkSpeed(float walkIncrease);
 
 	UFUNCTION(BlueprintCallable)
-		void UpgradeProjectile();
+		void UpgradeProjectile(float powerIncrease);
 
 protected:
 
