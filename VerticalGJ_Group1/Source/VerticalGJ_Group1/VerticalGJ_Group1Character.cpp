@@ -14,7 +14,7 @@
 //////////////////////////////////////////////////////////////////////////
 // AVerticalGJ_Group1Character
 
-AVerticalGJ_Group1Character::AVerticalGJ_Group1Character() : GetRotated(false)
+AVerticalGJ_Group1Character::AVerticalGJ_Group1Character() : GetRotated(false), ProjectileUpgrade(70.f)
 {
 
 	enum Weapon {
@@ -163,9 +163,9 @@ void AVerticalGJ_Group1Character::UpgradeWalkSpeed(float walkIncrease)
 }
 
 // Change Projectile type to upgraded form
-void AVerticalGJ_Group1Character::UpgradeProjectile()
+void AVerticalGJ_Group1Character::UpgradeProjectile(float powerIncrease)
 {
-	ProjectileUpgrade = true;
+	ProjectileUpgrade += powerIncrease;
 }
 
 
