@@ -54,6 +54,10 @@ AVerticalGJ_Group1Character::AVerticalGJ_Group1Character() : GetRotated(false)
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	ResourceCollision = CreateDefaultSubobject<UCapsuleComponent>(TEXT("ResourceCollider"));
+	ResourceCollision->SetupAttachment(RootComponent);
+	ResourceCollision->SetCapsuleSize(100.f, 100.f);
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
@@ -118,8 +122,6 @@ void AVerticalGJ_Group1Character::Move(const FInputActionValue& Value)
 
 		if (MovementVector.X > 0) GetRotated = false;
 		else if (MovementVector.X < 0) GetRotated = true;
-
-		UE_LOG(LogTemp, Warning, TEXT("Movement Vector X: %f"), MovementVector.X);
 	}
 }
 
@@ -135,6 +137,8 @@ void AVerticalGJ_Group1Character::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+
+
 void AVerticalGJ_Group1Character::Fire(FVector Loc, FRotator Rot, UClass* Spawning)
 {
 	
@@ -145,6 +149,24 @@ void AVerticalGJ_Group1Character::Fire(FVector Loc, FRotator Rot, UClass* Spawni
 	newActor->GetRootComponent()->ComponentVelocity = Direction;
 }
 
+// Increase radius on collider to pickup resources
+void AVerticalGJ_Group1Character::UpgradeCollisionRadius(float radiusIncrease)
+{
+	ResourceCollision->SetCapsuleSize(ResourceCollision->GetUnscaledCapsuleRadius() + radiusIncrease,
+		ResourceCollision->GetUnscaledCapsuleHalfHeight() + radiusIncrease);
+}
+
+// Incrase max walk speed of character
+void AVerticalGJ_Group1Character::UpgradeWalkSpeed(float walkIncrease)
+{
+	GetCharacterMovement()->MaxWalkSpeed += walkIncrease;
+}
+
+// Change Projectile type to upgraded form
+void AVerticalGJ_Group1Character::UpgradeProjectile()
+{
+	ProjectileUpgrade = true;
+}
 
 
 
