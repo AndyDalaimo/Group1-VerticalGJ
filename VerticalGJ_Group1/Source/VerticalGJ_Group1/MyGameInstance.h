@@ -78,8 +78,6 @@ private:
 	// Reference to player Controller
 	APlayerController* PlayerControllerRef;
 
-	
-
 public:
 
 };
