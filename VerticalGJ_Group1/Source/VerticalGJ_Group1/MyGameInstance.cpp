@@ -6,7 +6,8 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
 
-UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(10)
+UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(20000), Cost_WalkSpeed(1000), 
+Cost_RadiusIncrease(1000), Cost_ProjectileUpgrade(1000)
 {
 
 	static ConstructorHelpers::FClassFinder<UUserWidget> HUDFinder(TEXT("/Game/UI/WBP_HUD"));
@@ -36,8 +37,8 @@ void UMyGameInstance::Init()
 {
 	Super::Init();
 
-	PlayerResources = 10;
-
+	// TESTING
+	PlayerResources = 2000;
 }
 
 // -----------------------------------------------------------------------------------
@@ -105,7 +106,7 @@ void UMyGameInstance::ExitStoreUIWidget()
 
 		// Set Input Mode
 		PlayerControllerRef->SetInputMode(InputModeData);
-		PlayerControllerRef->bShowMouseCursor = false;
+		PlayerControllerRef->bShowMouseCursor = true;
 	}
 }
 

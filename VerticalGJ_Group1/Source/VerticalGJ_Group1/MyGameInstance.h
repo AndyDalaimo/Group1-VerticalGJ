@@ -51,10 +51,20 @@ public:
 		int32 PlayerResources;
 
 	UFUNCTION(BlueprintCallable)
-		void AddResources(int32 resource);
+	void AddResources(int32 resource);
 
 	UFUNCTION(BlueprintCallable)
-		void SubtractResources(int32 purchaseAmount);
+	void SubtractResources(int32 purchaseAmount);
+
+	// Cost of each Upgrade
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int32 Cost_WalkSpeed;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int32 Cost_RadiusIncrease;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int32 Cost_ProjectileUpgrade;
 
 	
 private:
