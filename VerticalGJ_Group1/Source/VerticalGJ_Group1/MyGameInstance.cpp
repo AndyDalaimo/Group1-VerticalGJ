@@ -6,8 +6,8 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
 
-UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(20000), Cost_WalkSpeed(1000), 
-Cost_RadiusIncrease(1000), Cost_ProjectileUpgrade(1000)
+UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(50), Cost_WalkSpeed(250), 
+Cost_RadiusIncrease(500), Cost_ProjectileUpgrade(500)
 {
 
 	static ConstructorHelpers::FClassFinder<UUserWidget> HUDFinder(TEXT("/Game/UI/WBP_HUD"));
@@ -38,7 +38,7 @@ void UMyGameInstance::Init()
 	Super::Init();
 
 	// TESTING
-	PlayerResources = 2000;
+	PlayerResources = 50;
 }
 
 // -----------------------------------------------------------------------------------
