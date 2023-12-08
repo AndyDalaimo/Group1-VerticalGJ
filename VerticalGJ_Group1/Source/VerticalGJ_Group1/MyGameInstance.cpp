@@ -53,7 +53,7 @@ void UMyGameInstance::ShowHUDUIWidget()
 {
 	UUserWidget* HUDUI = CreateWidget<UUserWidget>(this, *HUDUIWidgetClass);
 	HUDUI->AddToViewport();
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, HUDUI ? HUDUI->GetName() : "Not valid");
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, HUDUI ? HUDUI->GetName() : "Not valid");
 }
 
 // Exit HUD Widget
@@ -71,7 +71,7 @@ void UMyGameInstance::ShowStoreUIWidget()
 {
 	UUserWidget* StoreUI = CreateWidget<UUserWidget>(this, *StoreUIWidgetClass);
 	StoreUI->AddToViewport();
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, StoreUI ? StoreUI->GetName() : "Not valid");
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, StoreUI ? StoreUI->GetName() : "Not valid");
 
 	// Reference to Player Controller
 	PlayerControllerRef = GetFirstLocalPlayerController();
@@ -79,7 +79,7 @@ void UMyGameInstance::ShowStoreUIWidget()
 	// Set input mode
 	if (PlayerControllerRef == NULL)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
+		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
 	}
 	else {
 		// Set up Input Parameters
@@ -100,7 +100,7 @@ void UMyGameInstance::ExitStoreUIWidget()
 	// APlayerController* PlayerController = GetFirstLocalPlayerController();
 	if (PlayerControllerRef == NULL)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
+		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
 	}
 	else {
 		// Set up input parameters for player controller in Game
@@ -119,14 +119,14 @@ void UMyGameInstance::ShowGameOverWidget()
 {
 	UUserWidget* GameOverUI = CreateWidget<UUserWidget>(this, *GameOverUIWidgetClass);
 	GameOverUI->AddToViewport();
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, GameOverUI ? GameOverUI->GetName() : "Not valid");
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, GameOverUI ? GameOverUI->GetName() : "Not valid");
 
 	// Reference to Player Controller
 	PlayerControllerRef = GetFirstLocalPlayerController();
 
 	if (PlayerControllerRef == NULL)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
+		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
 	}
 	else {
 		// Set up Input Parameters
@@ -151,14 +151,14 @@ void UMyGameInstance::ShowMainMenuUIWidget()
 {
 	UUserWidget* MainMenuUI = CreateWidget<UUserWidget>(this, *MainMenuUIWidgetClass);
 	MainMenuUI->AddToViewport();
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, MainMenuUI ? MainMenuUI->GetName() : "Not valid");
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, MainMenuUI ? MainMenuUI->GetName() : "Not valid");
 
 	// Reference to Player Controller
 	PlayerControllerRef = GetFirstLocalPlayerController();
 
 	if (PlayerControllerRef == NULL)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
+		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
 	}
 	else {
 		// Set up Input Parameters
@@ -178,7 +178,7 @@ void UMyGameInstance::ExitMainMenuUIWidget()
 	// APlayerController* PlayerController = GetFirstLocalPlayerController();
 	if (PlayerControllerRef == NULL)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
+		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
 	}
 	else {
 		// Set up input parameters for player controller in Game
@@ -195,7 +195,7 @@ void UMyGameInstance::ShowWinScreenWidget()
 {
 	UUserWidget* WinUI = CreateWidget<UUserWidget>(this, *WinUIWidgetClass);
 	WinUI->AddToViewport();
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, WinUI ? WinUI->GetName() : "Not valid");
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, WinUI ? WinUI->GetName() : "Not valid");
 
 	// Reference to Player Controller
 	PlayerControllerRef = GetFirstLocalPlayerController();
@@ -205,7 +205,7 @@ void UMyGameInstance::ShowWinScreenWidget()
 	// Set input mode
 	if (PlayerControllerRef == NULL)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
+		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
 	}
 	else {
 		// Set up Input Parameters
