@@ -19,6 +19,7 @@ public:
 
 	UMyGameInstance(const FObjectInitializer& ObjectInitializer);
 
+	UFUNCTION(BlueprintCallable)
 	virtual void Init();
 
 	// Helper Functions for Showing UI Widgets

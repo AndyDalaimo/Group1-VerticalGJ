@@ -143,6 +143,14 @@ void UMyGameInstance::ExitGameOverWidget()
 	// Remove Store UI from viewport
 	UWidgetLayoutLibrary::RemoveAllWidgets(GetWorld());
 
+	// Set up input parameters for player controller in Game
+	FInputModeGameAndUI InputModeData;
+	InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::LockInFullscreen);
+
+	// Set Input Mode
+	PlayerControllerRef->SetInputMode(InputModeData);
+	PlayerControllerRef->bShowMouseCursor = true;
+
 }
 
 // Show Main Menu Widget
