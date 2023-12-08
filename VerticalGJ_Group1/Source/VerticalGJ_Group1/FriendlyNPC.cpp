@@ -15,7 +15,7 @@ AFriendlyNPC::AFriendlyNPC()
 void AFriendlyNPC::BeginPlay()
 {
 	Super::BeginPlay();
-	FriendlyProperties.Initialize((uint8)FriendlyProperties.type);
+	// FriendlyProperties.Initialize((uint8)FriendlyProperties.type);
 	
 }
 
@@ -35,7 +35,7 @@ void FFriendlyProperties::Initialize(uint8 t)
 	switch (t)
 	{
 	case(0) :
-		SlowEffect = 10.f;
+		SlowEffect = 70.f;
 		TrapEffect = false;
 		HealEffect = 0.f;
 		return;
