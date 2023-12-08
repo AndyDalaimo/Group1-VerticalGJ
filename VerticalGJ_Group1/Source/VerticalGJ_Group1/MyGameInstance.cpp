@@ -41,7 +41,7 @@ void UMyGameInstance::Init()
 	Super::Init();
 
 	// TESTING
-	PlayerResources = 20000;
+	PlayerResources = 50;
 }
 
 // -----------------------------------------------------------------------------------
