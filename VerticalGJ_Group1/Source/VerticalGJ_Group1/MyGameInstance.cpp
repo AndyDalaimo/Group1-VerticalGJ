@@ -42,6 +42,8 @@ void UMyGameInstance::Init()
 
 	// TESTING
 	PlayerResources = 50;
+
+	TreesPlanted = 0;
 }
 
 // -----------------------------------------------------------------------------------
