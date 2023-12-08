@@ -46,6 +46,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void ExitMainMenuUIWidget();
 
+	UFUNCTION(BlueprintCallable)
+	void ShowWinScreenWidget();
+
+	UFUNCTION(BlueprintCallable)
+	void ExitWinScreenWidget();
+
 	// Player resources and in game economy management
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		int32 PlayerResources;
@@ -56,6 +62,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SubtractResources(int32 purchaseAmount);
 
+	UFUNCTION(BlueprintCallable)
+	void AddPlantedTree(const int32 tree = 1);
+
 	// Cost of each Upgrade
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		int32 Cost_WalkSpeed;
@@ -65,6 +74,18 @@ public:
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		int32 Cost_ProjectileUpgrade;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int32 Cost_SlowMushroom;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int32 Cost_TrapMushroom;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int32 TreesPlanted;
+
+
+
 
 	
 private:
@@ -74,6 +95,7 @@ private:
 	TSubclassOf<class UUserWidget> StoreUIWidgetClass;
 	TSubclassOf<class UUserWidget> GameOverUIWidgetClass;
 	TSubclassOf<class UUserWidget> MainMenuUIWidgetClass;
+	TSubclassOf<class UUserWidget> WinUIWidgetClass;
 
 	// Reference to player Controller
 	APlayerController* PlayerControllerRef;
