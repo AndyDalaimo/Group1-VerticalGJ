@@ -35,7 +35,7 @@ void FFriendlyProperties::Initialize(uint8 t)
 	switch (t)
 	{
 	case(0) :
-		SlowEffect = 70.f;
+		SlowEffect = 50.f;
 		TrapEffect = false;
 		HealEffect = 0.f;
 		return;

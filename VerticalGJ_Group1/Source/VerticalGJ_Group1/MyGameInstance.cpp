@@ -7,17 +7,19 @@
 #include "Kismet/GameplayStatics.h"
 
 UMyGameInstance::UMyGameInstance(const FObjectInitializer& ObjectInitializer) : PlayerResources(50), Cost_WalkSpeed(250), 
-Cost_RadiusIncrease(500), Cost_ProjectileUpgrade(500)
+Cost_RadiusIncrease(500), Cost_ProjectileUpgrade(500), Cost_SlowMushroom(300), Cost_TrapMushroom(200), TreesPlanted(0)
 {
 
 	static ConstructorHelpers::FClassFinder<UUserWidget> HUDFinder(TEXT("/Game/UI/WBP_HUD"));
 	static ConstructorHelpers::FClassFinder<UUserWidget> StoreFinder(TEXT("/Game/UI/WBP_Store"));
 	static ConstructorHelpers::FClassFinder<UUserWidget> GameOverFinder(TEXT("/Game/UI/WBP_GameOver"));
 	static ConstructorHelpers::FClassFinder<UUserWidget> MainMenuFinder(TEXT("/Game/UI/WBP_MainMenu"));
+	static ConstructorHelpers::FClassFinder<UUserWidget> WinFinder(TEXT("/Game/UI/WBP_Win"));
 
 
 	if (!HUDFinder.Succeeded() && !StoreFinder.Succeeded() && 
-		!GameOverFinder.Succeeded() && !MainMenuFinder.Succeeded())
+		!GameOverFinder.Succeeded() && !MainMenuFinder.Succeeded() && 
+		!WinFinder.Succeeded())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("UI NOT FOUND"));
 		return;
@@ -29,6 +31,7 @@ Cost_RadiusIncrease(500), Cost_ProjectileUpgrade(500)
 		StoreUIWidgetClass = StoreFinder.Class;
 		GameOverUIWidgetClass = GameOverFinder.Class;
 		MainMenuUIWidgetClass = MainMenuFinder.Class;
+		WinUIWidgetClass = WinFinder.Class;
 	}
 }
 
@@ -38,7 +41,7 @@ void UMyGameInstance::Init()
 	Super::Init();
 
 	// TESTING
-	PlayerResources = 50;
+	PlayerResources = 20000;
 }
 
 // -----------------------------------------------------------------------------------
@@ -188,6 +191,36 @@ void UMyGameInstance::ExitMainMenuUIWidget()
 	}
 }
 
+void UMyGameInstance::ShowWinScreenWidget()
+{
+	UUserWidget* WinUI = CreateWidget<UUserWidget>(this, *WinUIWidgetClass);
+	WinUI->AddToViewport();
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, WinUI ? WinUI->GetName() : "Not valid");
+
+	// Reference to Player Controller
+	PlayerControllerRef = GetFirstLocalPlayerController();
+
+	UGameplayStatics::SetGamePaused(GetWorld(), true);
+
+	// Set input mode
+	if (PlayerControllerRef == NULL)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Player Controller Not Valid");
+	}
+	else {
+		// Set up Input Parameters
+		FInputModeUIOnly InputModeData;
+		InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+		PlayerControllerRef->SetInputMode(InputModeData);
+		PlayerControllerRef->bShowMouseCursor = true;
+	}
+}
+
+void UMyGameInstance::ExitWinScreenWidget()
+{
+
+}
+
 // -----------------------------------------------------------------------------------
 // ---------------- Functions for Player Economy and Store Front ---------------------
 // -----------------------------------------------------------------------------------
@@ -208,6 +241,13 @@ void UMyGameInstance::SubtractResources(int32 purchaseAmount)
 	PlayerResources -= purchaseAmount;
 
 	UE_LOG(LogTemp, Warning, TEXT("Player Resources: %d"), PlayerResources);
+}
+
+// Total amount of trees planted
+void UMyGameInstance::AddPlantedTree(const int32 tree)
+{
+	TreesPlanted += tree;
+	if (TreesPlanted == 5) ShowWinScreenWidget();
 }
 
 
