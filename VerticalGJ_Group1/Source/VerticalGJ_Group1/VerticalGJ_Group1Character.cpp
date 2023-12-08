@@ -141,10 +141,11 @@ void AVerticalGJ_Group1Character::Look(const FInputActionValue& Value)
 
 void AVerticalGJ_Group1Character::Fire(FVector Loc, FRotator Rot, UClass* Spawning)
 {
-	
+	// Get rotation thingy
 	UE_LOG(LogTemp, Warning, TEXT("This works :)"))
 	FVector Direction = FRotationMatrix(GetControlRotation()).GetScaledAxis(EAxis::Y);
 	
+	// Get the actor and give it the rotation thingy
 	AActor* newActor = GetWorld()->SpawnActor<AActor>(Spawning, Loc, Rot);
 	newActor->GetRootComponent()->ComponentVelocity = Direction;
 }
