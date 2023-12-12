@@ -11,3 +11,5 @@ Concept Art - Albert Moisan, Joel Maston-Shea, Leonardo Scalia, Alex Khanagha, E
 Asset - Alice Whitmarsh, Viky Shen, Abigail Ballard, Esti Boland, Louis Maxted, Ashley Holmes
 
 Development - Andy Dalaimo, William Fuller, Ryan Drewry, Aaron Lobuczek, Jack Kean
+
+Itch.io page to download game (Only on Windows): https://andydalaimo.itch.io/sludge-slayer
