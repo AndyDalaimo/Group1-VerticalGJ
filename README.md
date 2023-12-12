@@ -1,6 +1,6 @@
 Sludge Slayer
 
-A Real-Time tower defense game made in 5 days for the 2023 Vertical Game Jam at Norwich University of the Arts
+A Real-Time tower defense / shooter game made in 5 days for the 2023 Vertical Game Jam at Norwich University of the Arts
 
 Made in Unreal Engine 5 with C++ and Blueprints
 
